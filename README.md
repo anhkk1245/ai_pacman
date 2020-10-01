@@ -15,5 +15,4 @@ Hoàn thiện hàm foodHeuristic: Tìm khoảng cách vị trí thức ăn xa nh
 ### Câu 8:
 Hoàn thiện hàm:
 - findPathToClosestDot trong class ClosestDotSearchAgent: Sử dụng bfs, ucs và astar cho kết quả tốt nhất.
-- isGoalState trong class AnyFoodSearchProblem: 
- 
+- isGoalState trong class AnyFoodSearchProblem: Tìm vị trí của điểm thức ăn cần ăn gần nhất so với vị trí hiện tại, so sánh vị trí đó có trùng với ví trí hiện tại không, nếu trùng đó chính là điểm đích.
